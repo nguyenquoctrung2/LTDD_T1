@@ -48,6 +48,20 @@
         //whether Mark has a higher BMI than John.
         var markHigherBMI = BMIMark > BMIJohn
         console.log('Ket Qua : ' + markHigherBMI);
+        //Coding Challenge #2
+        console.log('Code 2 ');
+        if (BMIMark > BMIJohn) {
+            console.log('Chỉ Số BMI Của Mark cao hơn John');
+        } else {
+            console.log('Chỉ số BMI của John cao hơn Mark');
+        }
+        //Use a template literal to include the BMI values in the outputs. Example: "Mark's
+        //BMI (28.3) is higher than John's (23.9)!"
+        if (BMIMark > BMIJohn) {
+            console.log(`Chỉ Số BMI Của Mark ${BMIMark.toFixed(1)} cao hơn John ${BMIJohn.toFixed(1)}`);
+        } else {
+            console.log(`Chỉ Số BMI Của John ${BMIJohn.toFixed(1)} cao hơn Mark ${BMIMark.toFixed(1)}`);
+        }
     </script>
 </body>
 
