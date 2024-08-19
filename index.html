@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //Coding Challenge #1
+        //DATA 1 
+        //Store Mark's and John's mass and height in variables
+        var hMark = 1.69;
+        var mMark = 78;
+        var hJohn = 1.95;
+        var mJohn = 92;
+        console.log(hJohn, hMark, mMark, mJohn);
+        //Calculate both their BMIs using the formula (you can even implement both versions)
+        function BMI(mass, height) {
+            return mass / (height * height)
+        }
+        var BMIMark = BMI(mMark, hMark)
+        var BMIJohn = BMI(mJohn, hJohn)
+        console.log(`BMI Mark : ${BMIMark.toFixed(2)}`);
+        console.log(`BMI John : ${BMIJohn.toFixed(2)}`);
+        //Create a Boolean variable 'markHigherBMI' containing information about
+        //whether Mark has a higher BMI than John.
+        var markHigherBMI = BMIMark > BMIJohn
+        console.log('Ket Qua : ' + markHigherBMI);
+        //DATA 2
+        console.log('DATA 2');
+        var hMark = 1.88;
+        var mMark = 95;
+        var hJohn = 1.76;
+        var mJohn = 85;
+        console.log(hJohn, hMark, mMark, mJohn);
+        //Calculate both their BMIs using the formula (you can even implement both versions)
+        function BMI(mass, height) {
+            return mass / (height * height)
+        }
+        var BMIMark = BMI(mMark, hMark)
+        var BMIJohn = BMI(mJohn, hJohn)
+        console.log(`BMI Mark : ${BMIMark.toFixed(2)}`);
+        console.log(`BMI John : ${BMIJohn.toFixed(2)}`);
+        //Create a Boolean variable 'markHigherBMI' containing information about
+        //whether Mark has a higher BMI than John.
+        var markHigherBMI = BMIMark > BMIJohn
+        console.log('Ket Qua : ' + markHigherBMI);
+    </script>
+</body>
+
+</html>
